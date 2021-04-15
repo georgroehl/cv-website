@@ -47,6 +47,13 @@
   border-radius: 50%;
 }
 
+.education-img {
+  object-fit: cover;
+  margin-right: 2rem;
+  margin-bottom: 0.5rem;
+  height: 4rem;
+}
+
 .education-card-right {
   max-width: 70%;
 }

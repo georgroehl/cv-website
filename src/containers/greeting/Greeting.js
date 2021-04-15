@@ -26,7 +26,7 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <span className="wave-emoji">{emoji("👋🏾")}</span>
               </h1>
               <p
                 className={
@@ -41,7 +41,7 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 <Button
-                  text="See my resume"
+                  text="Download Resume"
                   newTab={true}
                   href={greeting.resumeLink}
                 />

@@ -9,26 +9,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Georg Rohl",
+  title: "Hi all, I'm Georg",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A motivated Software Engineer with experience in UI research and hardware prototyping. I love reading books, tinkering and filming my friends having fun."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "./assets/documents/georgcv.pdf",
+  displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  linkedin: "https://bit.ly/cvgeorg-in",
+  github: "https://bit.ly/cvgeorg-git",
+  gmail: "georg.roehl@rwth-aachen.de",
+  youtube: "https://bit.ly/cvgeorg-yt",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -37,15 +37,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Concept development of user interfaces with high usability and high learnability."),
+    emoji("⚡ Researching new interaction techniques and evaluating their application in the real world."),
+    emoji("⚡ Development and implementation of interfaces, be it hardware or software.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -53,57 +49,57 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "C, C++",
+      fontAwesomeClassname: "fas fa-copyright"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
+    {
+      skillName: "Adobe CC",
+      fontAwesomeClassname: "fas fa-file-pdf"
+    },
+    {
+      skillName: "Sketch",
+      fontAwesomeClassname: "fab fa-sketch"
+    },
+    {
+      skillName: "Figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
+      skillName: "Principle",
+      fontAwesomeClassname: "fab fa-product-hunt"
+    },
+    {
+      skillName: "Linux Shell",
+      fontAwesomeClassname: "fas fa-terminal"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "3D Printing",
+      fontAwesomeClassname: "fas fa-layer-group"
+    },
+    {
+      skillName: "Soldering & PCB",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "Hardware",
+      fontAwesomeClassname: "fas fa-wrench"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -114,24 +110,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "RWTH Aachen University",
+      logo: require("./assets/images/rwth.webp"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "Oktober 2018 - April 2021",
+      desc: "The Computer Science Master's course at RWTH is split into the following four thematic areas in addition to one applied subject. The list also names some of the courses I took part in. My thesis, which was graded with 1.0, is listed in the category Projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Applied Computer Science (e.g. Media Computing and HCI, Designing Interactive Systems, Virtual Reality)",
+        "Theoretical Computer Science (e.g. Compiler Construction, Advanced Automata Theory)",
+        "Software and Communication (e.g. Mobile Internet Technology, Innovations in Software Engineering)",
+        "Data and Information Management (e.g. Information Management for Public Transport, Privacy Enhancing Technologies for Data Science)",
+        "Applied Subject Medicine (e.g. Medical Informatics, Medical Information Systems, Technical Communication in Medical Engineering)"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "RWTH Aachen University",
+      logo: require("./assets/images/rwth.webp"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "Oktober 2012 - September 2018",
+      desc: "The Computer Science Bachelor's course at RWTH is split in the same thematic areas but contains mostly set courses. To ensure a higher degree of interdisciplinary skills, students have to chose an elective subject of application during their bachelor programm. My thesis at the chair for Human-Computer Interaction, which was graded with 1.0, is listed in the category Projects.",
+      descBullets: []
     }
   ]
 };
@@ -139,14 +137,14 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Human-Computer Interaction",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Programming",
       progressPercentage: "70%"
     },
     {
@@ -160,35 +158,47 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
+  title: "Work Experiences",
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "User Interface Designer",
+      company: "Institute for Automotive Engineering (ika)",
+      companylogo: require("./assets/images/ikaLogo.webp"),
+      date: "März 2019 – Juni 2020",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "The Institute for Automotive Engineering (ika) researches the vehicle including its systems and their interdependencies. During my time at the ika I worked in the Resaerch Area Vehicle Concepts & HMI.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "concept development of interactive prototypes for user interfaces of infotainment systems",
+        "development and implementation of a user-friendly CAN-bus data logger",
+        "implementation of cocepts for the battery indicator in electric vehicles"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Student Assistant",
+      company: "Institute of Medical Psychology and Medical Sociology",
+      companylogo: require("./assets/images/impmsLogo.webp"),
+      date: "Oktober 2015 - Dezember 2018",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "The IMPMS conducts research on neuronal, psychological and social aspects of metacognitive processes. In simple terms these are processes by which people gain 'knowledge about themselves and other people'.",
+      descBullets: [
+        "Level I and II Support for the IT infrastructure",
+        "programming of psychological reaction time experiments with a dedicated scripting language",
+        "revision of a Matlab procedure for automated evaluation of peripheral physiological signals"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Software Developer",
+      company: "GRÜN Software Group",
+      companylogo: require("./assets/images/gruenLogo.webp"),
+      date: "Feb 2014 - Sep 2015",
       desc:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "GRÜN Software Group offers software solutions, especially for the target groups organizations and associations, donation organizations, education providers, publishers and media houses and time management.",
+        descBullets: [
+          "design of mask views on MS-SQL and MySQL databases",
+          "set-up of the software product according to customer requirements",
+          "SQL query optimisation"
+        ]
     }
   ]
 };
@@ -197,14 +207,14 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Theses",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -231,64 +241,85 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Personal Projects",
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Theses, projects or seminars i did, be it at RWTH or private purposes. The links lead to external websites.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Master Thesis",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Tilt-Watch: Inclination-Based Smartwatch Input in Relation to the Forearm",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
         {
-          name: "Certification",
+          name: "Abstract",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+            "https://hci.rwth-aachen.de/roehl"
         },
         {
-          name: "Award Letter",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Download",
+          url: "https://hci.rwth-aachen.de/publications/roehl2021a.pdf"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Bachelor Thesis",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Interactive Brooches: Physical Interfaces on Smart Textiles",
       image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Download",
+          url: "https://hci.rwth-aachen.de/publications/roehl2018a.pdf"
+        }
+      ]
+    },
+    {
+      title: "Accenture Campus Innocation Challenge",
+      subtitle:
+        "We developed a business plan, prototype and marketing video for an augmented reality application for first responders.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      footerLink: [
+        {
+          name: "Watch Video on Youtube",
+          url: "https://youtu.be/pU3sWfIs__M"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Designing Interactive Systems",
+      subtitle:
+        "We applied iterative design, prototyping and evaluation methods and produced a video, that showcases our software. Also, we subtly included the then-current Dieselgate.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      footerLink: [
+        {
+          name: "Watch Video on Youtube",
+          url: "https://www.youtube.com/watch?v=rqsjrmug2ZQ"
+        }
+      ]
+    },
+
+    {
+      title: "Lab: Smart Facades for Smart Houses",
+      subtitle: "Our Arduino powered Moss&Solar Facade won the Instructables Home Technology Contest.",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Lab Description",
+          url: "https://hci.rwth-aachen.de/m3-ss14"
+        },
+        {
+          name: "View on Instructables",
+          url: "https://www.instructables.com/Ardunio-powered-MossSolar-Facade-Element/"
         }
       ]
     }
@@ -306,19 +337,19 @@ const blogSection = {
   blogs: [
     {
       url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+        "https://permanentrecord.xyz",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+    }//,
+    // {
+    //   url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+    //   title: "Why REACT is The Best?",
+    //   description:
+    //     "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    // }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -337,7 +368,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -350,22 +381,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    "",
+  number: "+49 176 6306 7175",
+  email_address: "georg.roehl@rwth-aachen.de"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {

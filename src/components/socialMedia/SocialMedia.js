@@ -32,29 +32,31 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gmail ? (
+      {socialMediaLinks.youtube ? (
         <a
-          href={`mailto:${socialMediaLinks.gmail}`}
+          href={socialMediaLinks.youtube}
           className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-google"></i>
+          <i className="fab fa-youtube"></i>
           <span></span>
         </a>
       ) : null}
 
-      {socialMediaLinks.gitlab ? (
+      {socialMediaLinks.gmail ? (
         <a
-          href={socialMediaLinks.gitlab}
+          href={`mailto:${socialMediaLinks.gmail}`}
           className="icon-button gitlab"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-gitlab"></i>
+          <i className="far fa-envelope"></i>
           <span></span>
         </a>
       ) : null}
+
+
 
       {socialMediaLinks.facebook ? (
         <a

@@ -1,5 +1,5 @@
 .footer-text {
-  text-align: center;
+  text-align: right;
   color: #868e96 !important;
 }
 
@@ -8,6 +8,6 @@
 }
 
 .footer-div {
-  margin-top: 2rem;
-  padding-bottom: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 0rem;
 }
