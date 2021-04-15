@@ -14,8 +14,7 @@ const greeting = {
   subTitle: emoji(
     "A motivated Software Engineer with experience in UI research and hardware prototyping. I love reading books, tinkering and filming my friends having fun."
   ),
-  resumeLink:
-    "./assets/documents/georgcv.pdf",
+  resumeLink: "./assets/documents/georgcv.pdf",
   displayGreeting: true
 };
 
@@ -39,9 +38,15 @@ const skillsSection = {
   title: "What I do",
   subTitle: "",
   skills: [
-    emoji("⚡ Concept development of user interfaces with high usability and high learnability."),
-    emoji("⚡ Researching new interaction techniques and evaluating their application in the real world."),
-    emoji("⚡ Development and implementation of interfaces, be it hardware or software.")
+    emoji(
+      "⚡ Concept development of user interfaces with high usability and high learnability."
+    ),
+    emoji(
+      "⚡ Researching new interaction techniques and evaluating their application in the real world."
+    ),
+    emoji(
+      "⚡ Development and implementation of interfaces, be it hardware or software."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -99,7 +104,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Hardware",
       fontAwesomeClassname: "fas fa-wrench"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -114,7 +119,8 @@ const educationInfo = {
       logo: require("./assets/images/rwth.webp"),
       subHeader: "Master of Science in Computer Science",
       duration: "Oktober 2018 - April 2021",
-      desc: "The Computer Science Master's course at RWTH is split into the following four thematic areas in addition to one applied subject. The list also names some of the courses I took part in. My thesis, which was graded with 1.0, is listed in the category Projects.",
+      desc:
+        "The Computer Science Master's course at RWTH is split into the following four thematic areas in addition to one applied subject. The list also names some of the courses I took part in. My thesis, which was graded with 1.0, is listed in the category Projects.",
       descBullets: [
         "Applied Computer Science (e.g. Media Computing and HCI, Designing Interactive Systems, Virtual Reality)",
         "Theoretical Computer Science (e.g. Compiler Construction, Advanced Automata Theory)",
@@ -128,7 +134,8 @@ const educationInfo = {
       logo: require("./assets/images/rwth.webp"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "Oktober 2012 - September 2018",
-      desc: "The Computer Science Bachelor's course at RWTH is split in the same thematic areas but contains mostly set courses. To ensure a higher degree of interdisciplinary skills, students have to chose an elective subject of application during their bachelor programm. My thesis at the chair for Human-Computer Interaction, which was graded with 1.0, is listed in the category Projects.",
+      desc:
+        "The Computer Science Bachelor's course at RWTH is split in the same thematic areas but contains mostly set courses. To ensure a higher degree of interdisciplinary skills, students have to chose an elective subject of application during their bachelor programm. My thesis at the chair for Human-Computer Interaction, which was graded with 1.0, is listed in the category Projects.",
       descBullets: []
     }
   ]
@@ -194,11 +201,11 @@ const workExperiences = {
       date: "Feb 2014 - Sep 2015",
       desc:
         "GRÜN Software Group offers software solutions, especially for the target groups organizations and associations, donation organizations, education providers, publishers and media houses and time management.",
-        descBullets: [
-          "design of mask views on MS-SQL and MySQL databases",
-          "set-up of the software product according to customer requirements",
-          "SQL query optimisation"
-        ]
+      descBullets: [
+        "design of mask views on MS-SQL and MySQL databases",
+        "set-up of the software product according to customer requirements",
+        "SQL query optimisation"
+      ]
     }
   ]
 };
@@ -261,8 +268,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Abstract",
-          url:
-            "https://hci.rwth-aachen.de/roehl"
+          url: "https://hci.rwth-aachen.de/roehl"
         },
         {
           name: "Download",
@@ -272,8 +278,7 @@ const achievementSection = {
     },
     {
       title: "Bachelor Thesis",
-      subtitle:
-        "Interactive Brooches: Physical Interfaces on Smart Textiles",
+      subtitle: "Interactive Brooches: Physical Interfaces on Smart Textiles",
       image: require("./assets/images/googleAssistantLogo.webp"),
       footerLink: [
         {
@@ -310,7 +315,8 @@ const achievementSection = {
 
     {
       title: "Lab: Smart Facades for Smart Houses",
-      subtitle: "Our Arduino powered Moss&Solar Facade won the Instructables Home Technology Contest.",
+      subtitle:
+        "Our Arduino powered Moss&Solar Facade won the Instructables Home Technology Contest.",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
         {
@@ -319,7 +325,8 @@ const achievementSection = {
         },
         {
           name: "View on Instructables",
-          url: "https://www.instructables.com/Ardunio-powered-MossSolar-Facade-Element/"
+          url:
+            "https://www.instructables.com/Ardunio-powered-MossSolar-Facade-Element/"
         }
       ]
     }
@@ -336,12 +343,11 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://permanentrecord.xyz",
+      url: "https://permanentrecord.xyz",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    }//,
+    } //,
     // {
     //   url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
     //   title: "Why REACT is The Best?",
@@ -386,8 +392,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me"),
-  subtitle:
-    "",
+  subtitle: "",
   number: "+49 176 6306 7175",
   email_address: "georg.roehl@rwth-aachen.de"
 };
