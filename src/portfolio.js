@@ -343,7 +343,7 @@ const blogSection = {};
 const contactInfo = {
   title: emoji("Contact Me"),
   subtitle: "",
-  number: "+49 176 6306 7175",
+  number: "",
   email_address: "georg.roehl@rwth-aachen.de"
 };
 
