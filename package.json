@@ -1,6 +1,6 @@
 {
-  "homepage": "https://www.georgroehl.de",
-  "name": "georgroehl.de",
+  "homepage": "https://georgroehl.github.io",
+  "name": "georgroehl.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
