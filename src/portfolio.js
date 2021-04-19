@@ -19,6 +19,13 @@ const greeting = {
 };
 
 // Social Media Links
+const talkSection = {
+  display: false
+};
+
+const podcastSection = {
+  display: false
+};
 
 const socialMediaLinks = {
   linkedin: "https://bit.ly/cvgeorg-in",
