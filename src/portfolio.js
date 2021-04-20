@@ -12,19 +12,10 @@ const greeting = {
   username: "Georg Rohl",
   title: "Hi all, I'm Georg",
   subTitle: emoji(
-    "A motivated Software Engineer with experience in UI research and hardware prototyping. I love reading books, tinkering and filming my friends having fun."
+    "A motivated Software Engineer with experience in UI research and hardware prototyping. I love reading books, tinkering and recording video."
   ),
   resumeLink: "https://github.com/georgroehl/georgroehl/raw/main/georgcv.pdf",
   displayGreeting: true
-};
-
-// Social Media Links
-const talkSection = {
-  display: false
-};
-
-const podcastSection = {
-  display: false
 };
 
 const socialMediaLinks = {
@@ -35,11 +26,8 @@ const socialMediaLinks = {
   facebook: "",
   medium: "",
   stackoverflow: "",
-  // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
-
-// Skills Section
 
 const skillsSection = {
   title: "What I do",
@@ -55,9 +43,6 @@ const skillsSection = {
       "⚡ Development and implementation of interfaces, be it hardware or software."
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -113,13 +98,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-wrench"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
-// Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "RWTH Aachen University",
@@ -148,32 +131,9 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: false,
-  experience: [
-    {
-      Stack: "Human-Computer Interaction",
-      progressPercentage: "90%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
-
-// Work experience section
-
 const workExperiences = {
   title: "Work Experiences",
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
       role: "User Interface Designer",
@@ -216,23 +176,6 @@ const workExperiences = {
     }
   ]
 };
-
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Some big projects you have worked on
-
-const bigProjects = {
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: "Personal Projects",
@@ -279,6 +222,18 @@ const achievementSection = {
         }
       ]
     },
+    {
+      title: "My Personal Blog",
+      subtitle:
+        "At the beginning of 2021 I started my own blog. Here, I write german articles about Smart Homes and technology.",
+      image: require("./assets/images/imagePR.webp"),
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://permanentrecord.xyz/"
+        }
+      ]
+    },
 
     {
       title: "Designing Interactive Systems",
@@ -294,7 +249,7 @@ const achievementSection = {
     },
 
     {
-      title: "Lab: Smart Facades for Smart Houses",
+      title: "Smart Facades for Smart Houses",
       subtitle:
         "Our Arduino powered Moss&Solar Facade won the Instructables Home Technology Contest.",
       image: require("./assets/images/imageMoss.webp"),
@@ -314,24 +269,40 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
-const blogSection = {};
-
-// Podcast Section
-
 const contactInfo = {
   title: emoji("Contact Me"),
-  subtitle: "",
+  subtitle: "M. Sc. RWTH Georg Röhl",
   number: "",
   email_address: "georg.roehl@rwth-aachen.de"
 };
 
-// Twitter Section
+const techStack = {
+  viewSkillBars: false,
+  displayCodersrank: false
+};
+
+const talkSection = {
+  display: false
+};
+
+const podcastSection = {
+  display: false
+};
+
+const openSource = {
+  showGithubProfile: "false",
+  display: false
+};
+
+const bigProjects = {
+  display: false
+};
+
+const blogSection = {};
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "",
+  display: false
 };
 
 export {

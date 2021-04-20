@@ -1,6 +1,6 @@
 {
-  "homepage": "https://georgroehl.github.io/cv-website/",
-  "name": "georgroehl.github.io",
+  "homepage": "https://georgroehl.de",
+  "name": "georgroehl.de",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
