@@ -14,7 +14,7 @@ const greeting = {
   subTitle: emoji(
     "A motivated Software Engineer with experience in UI research and hardware prototyping. I love reading books, tinkering and filming my friends having fun."
   ),
-  resumeLink: "./assets/documents/georgcv.pdf",
+  resumeLink: "https://github.com/georgroehl/georgroehl/raw/main/georgcv.pdf",
   displayGreeting: true
 };
 
