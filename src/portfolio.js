@@ -139,7 +139,7 @@ const workExperiences = {
       role: "User Interface Designer",
       company: "Institute for Automotive Engineering (ika)",
       companylogo: require("./assets/images/ikaLogo.webp"),
-      date: "März 2019 – Juni 2020",
+      date: "Mar 2019 – Jun 2020",
       desc:
         "The Institute for Automotive Engineering (ika) researches the vehicle including its systems and their interdependencies. During my time at the ika I worked in the Resaerch Area Vehicle Concepts & HMI.",
       descBullets: [
@@ -152,7 +152,7 @@ const workExperiences = {
       role: "Student Assistant",
       company: "Institute of Medical Psychology and Medical Sociology",
       companylogo: require("./assets/images/impmsLogo.webp"),
-      date: "Oktober 2015 - Dezember 2018",
+      date: "Oct 2015 - Dec 2018",
       desc:
         "The IMPMS conducts research on neuronal, psychological and social aspects of metacognitive processes. In simple terms these are processes by which people gain 'knowledge about themselves and other people'.",
       descBullets: [
@@ -180,7 +180,7 @@ const workExperiences = {
 const achievementSection = {
   title: "Personal Projects",
   subtitle:
-    "Theses, projects or seminars i did, be it at RWTH or private purposes. The links lead to external websites.",
+    "Theses, projects or seminars i did, be it at RWTH or for private purposes. The links below lead to external websites.",
 
   achievementsCards: [
     {
@@ -213,7 +213,7 @@ const achievementSection = {
     {
       title: "Accenture Campus Innocation Challenge",
       subtitle:
-        "We developed a business plan, prototype and marketing video for an augmented reality application for first responders.",
+        "We developed a business plan, prototype and marketing video for an AR application for first responders.",
       image: require("./assets/images/imageEMAR.webp"),
       footerLink: [
         {
