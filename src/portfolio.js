@@ -211,7 +211,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Accenture Campus Innocation Challenge",
+      title: "Accenture Campus Innovation Challenge",
       subtitle:
         "We developed a business plan, prototype and marketing video for an AR application for first responders.",
       image: require("./assets/images/imageEMAR.webp"),
@@ -251,7 +251,7 @@ const achievementSection = {
     {
       title: "Smart Facades for Smart Houses",
       subtitle:
-        "Our Arduino powered Moss&Solar Facade won the Instructables Home Technology Contest.",
+        "Our Arduino powered Moss&Solar Facade won the Instructables Home Technology Contest and has over 13000 views.",
       image: require("./assets/images/imageMoss.webp"),
       footerLink: [
         {
