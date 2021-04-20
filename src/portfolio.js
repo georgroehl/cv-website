@@ -127,7 +127,7 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "Oktober 2018 - April 2021",
       desc:
-        "The Computer Science Master's course at RWTH is split into the following four thematic areas in addition to one applied subject. The list also names some of the courses I took part in. My thesis, which was graded with 1.0, is listed in the category Projects.",
+        "The Computer Science Master's course at RWTH is split into the following four thematic areas in addition to one applied subject. The list also names some of the courses I took part in. My thesis, which was graded with 1.0, is presented under Projects.",
       descBullets: [
         "Applied Computer Science (e.g. Media Computing and HCI, Designing Interactive Systems, Virtual Reality)",
         "Theoretical Computer Science (e.g. Compiler Construction, Advanced Automata Theory)",
@@ -228,33 +228,6 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Theses",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
-  ],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -271,7 +244,7 @@ const achievementSection = {
       title: "Master Thesis",
       subtitle:
         "Tilt-Watch: Inclination-Based Smartwatch Input in Relation to the Forearm",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/imageMA.webp"),
       footerLink: [
         {
           name: "Abstract",
@@ -286,7 +259,7 @@ const achievementSection = {
     {
       title: "Bachelor Thesis",
       subtitle: "Interactive Brooches: Physical Interfaces on Smart Textiles",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/imageBA.webp"),
       footerLink: [
         {
           name: "Download",
@@ -298,7 +271,7 @@ const achievementSection = {
       title: "Accenture Campus Innocation Challenge",
       subtitle:
         "We developed a business plan, prototype and marketing video for an augmented reality application for first responders.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/imageEMAR.webp"),
       footerLink: [
         {
           name: "Watch Video on Youtube",
@@ -311,7 +284,7 @@ const achievementSection = {
       title: "Designing Interactive Systems",
       subtitle:
         "We applied iterative design, prototyping and evaluation methods and produced a video, that showcases our software. Also, we subtly included the then-current Dieselgate.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/imageDIS.webp"),
       footerLink: [
         {
           name: "Watch Video on Youtube",
@@ -324,7 +297,7 @@ const achievementSection = {
       title: "Lab: Smart Facades for Smart Houses",
       subtitle:
         "Our Arduino powered Moss&Solar Facade won the Instructables Home Technology Contest.",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/imageMoss.webp"),
       footerLink: [
         {
           name: "Lab Description",
