@@ -180,7 +180,7 @@ const workExperiences = {
 const achievementSection = {
   title: "Personal Projects",
   subtitle:
-    "Theses, projects or seminars i did, be it at RWTH or for private purposes. The links below lead to external websites.",
+    "Theses, projects and seminars i did, be it at RWTH or for private purposes. The links below lead to external websites.",
 
   achievementsCards: [
     {
