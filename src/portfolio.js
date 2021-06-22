@@ -12,7 +12,7 @@ const greeting = {
   username: "Georg Rohl",
   title: "Hi all, I'm Georg",
   subTitle: emoji(
-    "A motivated Software Engineer with experience in UI research and hardware prototyping. I love reading books, tinkering and recording video."
+    "A motivated computer scientist with experience in UX research, hardware prototyping and software development. I love reading books and tinkering."
   ),
   resumeLink: "https://github.com/georgroehl/georgroehl/raw/main/georgcv.pdf",
   displayGreeting: true
@@ -34,13 +34,13 @@ const skillsSection = {
   subTitle: "",
   skills: [
     emoji(
-      "⚡ Concept development of user interfaces with high usability and high learnability."
+      "⚡ Experience in UI/UX research, hardware prototyping & software development. Also I'm interested in IT Security and net politics."
     ),
     emoji(
-      "⚡ Researching new interaction techniques and evaluating their application in the real world."
+      "⚡ I like reading books, tinkering, hiking, running, swimming and windsurfing."
     ),
     emoji(
-      "⚡ Development and implementation of interfaces, be it hardware or software."
+      "⚡ I'm already experienced in working in the automotive sector, as well as medical sector, but would love to work in other industries, too."
     )
   ],
 
@@ -125,7 +125,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "Oktober 2012 - September 2018",
       desc:
-        "The Computer Science Bachelor's course at RWTH is split in the same thematic areas but contains mostly set courses. To ensure a higher degree of interdisciplinary skills, students have to chose an elective subject of application during their bachelor programm. My thesis at the chair for Human-Computer Interaction, which was graded with 1.0, is listed in the category Projects.",
+        "The Computer Science Bachelor's course at RWTH is split in the same thematic areas but contains mostly set courses. To ensure a higher degree of interdisciplinary skills, students have to choose an elective subject of application during their bachelor programm. My thesis at the chair for Human-Computer Interaction, which was graded with 1.0, is listed in the category Projects.",
       descBullets: []
     }
   ]
