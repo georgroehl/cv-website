@@ -2,16 +2,16 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.css";
-import programming from "../../assets/lottie/programming";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
+import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 
-import {illustration, greeting} from "../../portfolio";
+import {greeting, workExperiences} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
+  const currentExperience = workExperiences.experience[0];
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -48,15 +48,8 @@ export default function Greeting() {
               </div>
             </div>
           </div>
-          <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={programming} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+          <div className="greeting-experience-div">
+            <ExperienceCard isDark={isDark} cardInfo={currentExperience} />
           </div>
         </div>
       </div>

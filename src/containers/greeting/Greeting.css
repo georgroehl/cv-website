@@ -27,6 +27,62 @@
   flex: 1;
   margin-bottom: 30px;
 }
+
+.greeting-text-div {
+  flex: 1.08;
+}
+
+.greeting-experience-div {
+  align-self: center;
+  flex: 0.92;
+  max-width: 520px;
+  margin-left: 3rem;
+}
+
+.greeting-experience-div .experience-banner,
+.greeting-experience-div .experience-blurred_div {
+  height: 9rem;
+}
+
+.greeting-experience-div .experience-div-company {
+  height: 7rem;
+}
+
+.greeting-experience-div .experience-roundedimg {
+  top: 5rem;
+  width: 6.5rem;
+  height: 6.5rem;
+}
+
+.greeting-experience-div .experience-text-details {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+
+.greeting-experience-div .experience-text-role {
+  font-size: 22px;
+}
+
+.greeting-experience-div .experience-text-date {
+  font-size: 17px;
+  padding-top: 0.6rem;
+}
+
+.greeting-experience-div .experience-text-desc {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.greeting-experience-div ul {
+  padding-left: 1.25rem;
+}
+
+.greeting-experience-div li {
+  font-size: 15px;
+  line-height: 1.35;
+  margin-bottom: 0.25rem;
+}
+
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
@@ -41,11 +97,6 @@
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
-}
-
-.greeting-image-div > img {
-  max-width: 100%;
-  height: auto;
 }
 
 .wave-emoji {
@@ -105,8 +156,10 @@
   .greeting-main {
     display: block;
   }
-  .greeting-image-div {
-    height: 256px;
+
+  .greeting-experience-div {
+    max-width: 430px;
+    margin: 2.5rem auto 0;
   }
 }
 
