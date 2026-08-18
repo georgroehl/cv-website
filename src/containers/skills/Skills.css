@@ -12,8 +12,12 @@
 }
 
 .skills-image-div > img {
+  display: block;
+  width: 100%;
   max-width: 100%;
   height: auto;
+  border-radius: 18px;
+  box-shadow: rgba(25, 50, 80, 0.14) 0 18px 45px -20px;
 }
 
 .skills-heading {

@@ -1,10 +1,8 @@
 import React, {useContext} from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import {illustration, skillsSection} from "../../portfolio";
+import {skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import writingPerson from "../../assets/lottie/writing";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Skills() {
@@ -17,14 +15,11 @@ export default function Skills() {
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={writingPerson} />
-            ) : (
-              <img
-                alt="Man Working"
-                src={require("../../assets/images/developerActivity.svg")}
-              ></img>
-            )}
+            <img
+              alt="Embedded controller, connected devices, code, and an AI engineering workflow"
+              src={require("../../assets/images/embedded-ai-workflow.jpg")}
+              loading="lazy"
+            />
           </div>
         </Fade>
         <Fade right duration={1000}>
