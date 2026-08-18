@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0319b784e804cecb4e72468f13b7a6c5",
+    "revision": "27c3c5b4af764e418ceb01d78856b10e",
     "url": "/index.html"
   },
   {
-    "revision": "0748cd21d4ea4eace3aa",
+    "revision": "6dd71f35e9023bbc000b",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "55faa926400f6d32017f",
+    "revision": "f104a812c80a4fe20b17",
     "url": "/static/css/4.cf77fe87.chunk.css"
   },
   {
-    "revision": "375806e8d0d0fd87ee2a",
-    "url": "/static/css/main.05b08b7a.chunk.css"
+    "revision": "8252c499207f916c6fd8",
+    "url": "/static/css/main.ed3fb9af.chunk.css"
   },
   {
-    "revision": "5d4442a13fbfbaea5f50",
-    "url": "/static/js/2.08de4e52.chunk.js"
+    "revision": "e3432a1ff410838ab12f",
+    "url": "/static/js/2.a81f40b8.chunk.js"
   },
   {
     "revision": "408f8ade359af8695a328ed937291fdf",
-    "url": "/static/js/2.08de4e52.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a81f40b8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0748cd21d4ea4eace3aa",
-    "url": "/static/js/3.88b8e909.chunk.js"
+    "revision": "6dd71f35e9023bbc000b",
+    "url": "/static/js/3.c582f06a.chunk.js"
   },
   {
-    "revision": "55faa926400f6d32017f",
-    "url": "/static/js/4.29507ada.chunk.js"
+    "revision": "f104a812c80a4fe20b17",
+    "url": "/static/js/4.1284ffa4.chunk.js"
   },
   {
-    "revision": "375806e8d0d0fd87ee2a",
-    "url": "/static/js/main.81b7f984.chunk.js"
+    "revision": "8252c499207f916c6fd8",
+    "url": "/static/js/main.11234274.chunk.js"
   },
   {
-    "revision": "fa5a75041538a85a893e",
-    "url": "/static/js/runtime-main.224c1261.js"
+    "revision": "ad527d57137e4fec9c8f",
+    "url": "/static/js/runtime-main.e1a6dfe6.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/contactMailDark.51cf7192.svg"
   },
   {
-    "revision": "59389695208d7454c6607bed51ed4316",
-    "url": "/static/media/developerActivity.59389695.svg"
+    "revision": "2b4f245392e3a2f45dc32fd5af32c802",
+    "url": "/static/media/embedded-ai-workflow.2b4f2453.jpg"
   },
   {
     "revision": "4c7c0a57dc45729df24482cbcbe638ea",
