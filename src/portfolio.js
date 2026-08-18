@@ -9,20 +9,20 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Georg Rohl",
-  title: "Hi all, I'm Georg",
+  username: "Georg Röhl",
+  title: "Hi, I'm Georg",
   subTitle: emoji(
-    "A motivated computer scientist with experience in UX research, hardware prototyping and software development. I love reading books and tinkering."
+    "Embedded Software Engineer in Berlin, leading product development and building reliable embedded systems, AI-powered applications, and developer workflows."
   ),
   resumeLink: "https://github.com/georgroehl/georgroehl/raw/main/georgcv.pdf",
   displayGreeting: true
 };
 
 const socialMediaLinks = {
-  linkedin: "https://bit.ly/cvgeorg-in",
-  github: "https://bit.ly/cvgeorg-git",
+  linkedin: "https://www.linkedin.com/in/georg-roehl/",
+  github: "https://github.com/georgroehl",
   gmail: "georg.roehl@rwth-aachen.de",
-  youtube: "https://bit.ly/cvgeorg-yt",
+  youtube: "",
   facebook: "",
   medium: "",
   stackoverflow: "",
@@ -30,72 +30,60 @@ const socialMediaLinks = {
 };
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "",
+  title: "What I build",
+  subTitle: "Embedded systems, AI engineering, and product delivery",
   skills: [
     emoji(
-      "⚡ Experience in UI/UX research, hardware prototyping & software development. Also I'm interested in IT Security and net politics."
+      "⚡ Embedded software in C and C++ with Yocto, FreeRTOS, IPC, CAN, CANopen, MQTT, and HTTP."
     ),
     emoji(
-      "⚡ I like reading books, tinkering, hiking, running, swimming and windsurfing."
+      "⚡ AI-powered applications and agentic workflows using GitHub Copilot, Claude Code, OpenAI Codex, SpaceXAI Cursor, and Microsoft 365 Copilot."
     ),
     emoji(
-      "⚡ I'm already experienced in working in the automotive sector, as well as medical sector, but would love to work in other industries, too."
+      "⚡ Technical leadership for teams of up to 15 developers, from stakeholder communication and requirements to cross-functional delivery."
     )
   ],
 
   softwareSkills: [
     {
+      skillName: "AI Agents",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "C & C++",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Yocto & Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "FreeRTOS",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "C, C++",
-      fontAwesomeClassname: "fas fa-copyright"
+      skillName: "CAN & MQTT",
+      fontAwesomeClassname: "fas fa-network-wired"
     },
     {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     },
     {
-      skillName: "Swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "Adobe CC",
-      fontAwesomeClassname: "fas fa-file-pdf"
-    },
-    {
-      skillName: "Sketch",
-      fontAwesomeClassname: "fab fa-sketch"
-    },
-    {
-      skillName: "Figma",
-      fontAwesomeClassname: "fab fa-figma"
-    },
-    {
-      skillName: "Principle",
-      fontAwesomeClassname: "fab fa-product-hunt"
-    },
-    {
-      skillName: "Linux Shell",
-      fontAwesomeClassname: "fas fa-terminal"
+      skillName: "CI/CD",
+      fontAwesomeClassname: "fas fa-infinity"
     },
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "3D Printing",
-      fontAwesomeClassname: "fas fa-layer-group"
-    },
-    {
-      skillName: "Soldering & PCB",
-      fontAwesomeClassname: "fas fa-microchip"
-    },
-    {
-      skillName: "Hardware",
-      fontAwesomeClassname: "fas fa-wrench"
+      skillName: "VMware",
+      fontAwesomeClassname: "fas fa-server"
     }
   ],
   display: true
@@ -108,44 +96,53 @@ const educationInfo = {
       schoolName: "RWTH Aachen University",
       logo: require("./assets/images/rwth.webp"),
       subHeader: "Master of Science in Computer Science",
-      duration: "Oktober 2018 - April 2021",
-      desc:
-        "The Computer Science Master's course at RWTH is split into the following four thematic areas in addition to one applied subject. The list also names some of the courses I took part in. My thesis, which was graded with 1.0, is presented under Projects.",
+      duration: "Oct 2018 - Apr 2021",
+      desc: "Focused on Human-Computer Interaction with Medicine as an applied subject. My master's thesis, Tilt-Watch, combined embedded prototyping, interaction design, and a user study and was graded 1.0.",
       descBullets: [
-        "Applied Computer Science (e.g. Media Computing and HCI, Designing Interactive Systems, Virtual Reality)",
-        "Theoretical Computer Science (e.g. Compiler Construction, Advanced Automata Theory)",
-        "Software and Communication (e.g. Mobile Internet Technology, Innovations in Software Engineering)",
-        "Data and Information Management (e.g. Information Management for Public Transport, Privacy Enhancing Technologies for Data Science)",
-        "Applied Subject Medicine (e.g. Medical Informatics, Medical Information Systems, Technical Communication in Medical Engineering)"
+        "Human-Computer Interaction, media computing, and interactive systems",
+        "Embedded prototyping with ESP32, Bluetooth Low Energy, and iOS",
+        "Final grade: 1.8"
       ]
     },
     {
       schoolName: "RWTH Aachen University",
       logo: require("./assets/images/rwth.webp"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "Oktober 2012 - September 2018",
-      desc:
-        "The Computer Science Bachelor's course at RWTH is split in the same thematic areas but contains mostly set courses. To ensure a higher degree of interdisciplinary skills, students have to choose an elective subject of application during their bachelor programm. My thesis at the chair for Human-Computer Interaction, which was graded with 1.0, is listed in the category Projects.",
+      duration: "Oct 2012 - Sep 2018",
+      desc: "Studied Computer Science with Medicine as an applied subject. My bachelor's thesis, Interactive Brooches, explored physical interfaces on smart textiles and was graded 1.0.",
       descBullets: []
     }
   ]
 };
 
 const workExperiences = {
-  title: "Work Experiences",
+  title: "Professional Experience",
   display: true,
   experience: [
+    {
+      role: "Embedded Software Engineer",
+      company: "Hach",
+      companylogo: require("./assets/images/hachLogo.png"),
+      date: "Oct 2021 - Present · Berlin",
+      desc: "I lead embedded and AI-centered product development, connecting technical delivery with clear stakeholder communication.",
+      descBullets: [
+        "Lead a team of up to 15 developers on a new-product development project",
+        "Build and deploy AI-powered applications and shape agentic engineering workflows",
+        "Design embedded software in C and C++ using Yocto and FreeRTOS",
+        "Develop communication drivers for IPC, CAN, MQTT, and HTTP",
+        "Translate priorities into scoped work packages and communicate progress to stakeholders"
+      ]
+    },
     {
       role: "User Interface Designer",
       company: "Institute for Automotive Engineering (ika)",
       companylogo: require("./assets/images/ikaLogo.webp"),
       date: "Mar 2019 – Jun 2020",
-      desc:
-        "The Institute for Automotive Engineering (ika) researches the vehicle including its systems and their interdependencies. During my time at the ika I worked in the Resaerch Area Vehicle Concepts & HMI.",
+      desc: "Worked in the Vehicle Concepts & HMI research area on interactive automotive systems.",
       descBullets: [
-        "concept development of interactive prototypes for user interfaces of infotainment systems",
-        "development and implementation of a user-friendly CAN-bus data logger",
-        "implementation of cocepts for the battery indicator in electric vehicles"
+        "Developed interactive prototypes for infotainment systems",
+        "Implemented a user-friendly CAN-bus data logger",
+        "Created battery-state display concepts for electric vehicles"
       ]
     },
     {
@@ -153,12 +150,11 @@ const workExperiences = {
       company: "Institute of Medical Psychology and Medical Sociology",
       companylogo: require("./assets/images/impmsLogo.webp"),
       date: "Oct 2015 - Dec 2018",
-      desc:
-        "The IMPMS conducts research on neuronal, psychological and social aspects of metacognitive processes. In simple terms these are processes by which people gain 'knowledge about themselves and other people'.",
+      desc: "Supported research at the intersection of psychology, medicine, and software.",
       descBullets: [
-        "Level I and II Support for the IT infrastructure",
-        "programming of psychological reaction time experiments with a dedicated scripting language",
-        "revision of a Matlab procedure for automated evaluation of peripheral physiological signals"
+        "Provided first- and second-level IT support",
+        "Programmed psychological reaction-time experiments",
+        "Revised MATLAB procedures for automated analysis of physiological signals"
       ]
     },
     {
@@ -166,21 +162,20 @@ const workExperiences = {
       company: "GRÜN Software Group",
       companylogo: require("./assets/images/gruenLogo.webp"),
       date: "Feb 2014 - Sep 2015",
-      desc:
-        "GRÜN Software Group offers software solutions, especially for the target groups organizations and associations, donation organizations, education providers, publishers and media houses and time management.",
+      desc: "Configured database-backed software products for customer requirements.",
       descBullets: [
-        "design of mask views on MS-SQL and MySQL databases",
-        "set-up of the software product according to customer requirements",
-        "SQL query optimisation"
+        "Designed views for MS SQL and MySQL databases",
+        "Configured software products for customer requirements",
+        "Optimized SQL queries and documented internal workflows"
       ]
     }
   ]
 };
 
 const achievementSection = {
-  title: "Personal Projects",
+  title: "Selected Projects",
   subtitle:
-    "Theses, projects and seminars i did, be it at RWTH or for private purposes. The links below lead to external websites.",
+    "Research and hands-on projects spanning embedded systems, interaction design, and prototyping.",
 
   achievementsCards: [
     {
@@ -225,7 +220,7 @@ const achievementSection = {
     {
       title: "My Personal Blog",
       subtitle:
-        "At the beginning of 2021 I started my own blog. Here, I write german articles about Smart Homes and technology.",
+        "A German-language blog about smart homes, technology, and hands-on experimentation.",
       image: require("./assets/images/imagePR.webp"),
       footerLink: [
         {
@@ -260,8 +255,7 @@ const achievementSection = {
         },
         {
           name: "View on Instructables",
-          url:
-            "https://www.instructables.com/Ardunio-powered-MossSolar-Facade-Element/"
+          url: "https://www.instructables.com/Ardunio-powered-MossSolar-Facade-Element/"
         }
       ]
     }
@@ -270,8 +264,8 @@ const achievementSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me"),
-  subtitle: "M. Sc. RWTH Georg Röhl",
+  title: emoji("Let's connect"),
+  subtitle: "Embedded Software Engineer · Berlin, Germany",
   number: "",
   email_address: "georg.roehl@rwth-aachen.de"
 };

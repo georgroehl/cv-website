@@ -9,7 +9,7 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Second Animation by Jignesh Gajjar. Website theme by Saad Pasta.
+          Built with React. Original theme by Saad Pasta. Updated 2026.
         </p>
       </div>
     </Fade>
